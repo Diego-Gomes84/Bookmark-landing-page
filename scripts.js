@@ -31,3 +31,4 @@ let li = document.querySelectorAll(".faq-text li");
       });
     }
 
+    var email = document.getElementById ('')

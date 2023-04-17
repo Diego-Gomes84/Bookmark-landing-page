@@ -263,45 +263,77 @@ main {
   .accordion-text li.showAnswer p{
     display: block;
   }
+
+  /*contact*/
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #5266df;
+    height: 320px;
+  }
+  .contact h2{
+    font-size: 30px;
+    width: 400px;
+    text-align: center;
+  }
+  .contact h4{
+    font-weight: 400;
+    margin-top: 70px;
+    letter-spacing: 0.3rem;
+    padding-bottom: 30px;
+  }
+  #email{
+    padding-top: 30px;
+  }
+  #email input{
+    padding: 15px 80px 10px 10px;
+    border-radius: 5px;
+  }
+  #email a{
+    text-decoration: none;
+    background-color: #ee5558;
+    color: #fff;
+    padding: 11px 20px;
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  input::placeholder{
+    color: #dddde0;
+  }
+
+  /*footer*/
+  footer {
+    height: 100px;
+    background-color: #242946;
+    display: flex;
+    padding: 0 200px;
+    align-items: center;
+  }
+#logo-footer{
+  padding-right: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+  footer ul{
+    width: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: #fff;
+  }
+
+  footer img{
+    margin-right: 10px;
+  }
+
+  #social img{
+    padding-left: 40px;
   
-  @media (max-width: 994px) {
-    body{
-      padding: 40px 20px;
-    }
-    .accordion{
-      max-width: 100%;
-      padding: 45px 60px 45px 60px;
-    }
-    .accordion .image-box{
-      height: 360px;
-      width: 220px;
-    }
-    .accordion .accordion-text{
-      width: 63%;
-    }
-  }
-  @media (max-width: 820px) {
-    .accordion{
-      flex-direction: column;
-    }
-    .accordion .image-box{
-      height: 360px;
-      width: 300px;
-      background: #7d2ae8;
-      width: 100%;
-      border-radius: 25px;
-      padding: 30px;
-    }
-    .accordion .accordion-text{
-      width: 100%;
-      margin-top: 30px;
-    }
-  }
-  @media (max-width: 538px) {
-    .accordion{
-      padding: 25px;
-    }
-    .accordion-text li p{
-      width: 98%;
-    }
   }
