@@ -99,7 +99,12 @@ main {
     list-style: none;
     justify-content: space-between;
 }
-
+.features h2{
+  padding-bottom: 50px;
+}
+.features p{
+  padding-bottom: 20px;
+}
 .features li{
     padding-bottom: 10px;
     border-bottom: 5px solid grey;
